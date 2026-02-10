@@ -1,0 +1,142 @@
+[
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Apa satuan kecepatan dalam SI?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "m/s", "isCorrect": true },
+      { "optionText": "km/h", "isCorrect": false },
+      { "optionText": "m/s^2", "isCorrect": false },
+      { "optionText": "cm/s", "isCorrect": false }
+    ],
+    "explanation": "Meter per second (m/s) adalah satuan standar SI untuk kecepatan.",
+    "points": 10,
+    "orderNumber": 1
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Siapakah ilmuwan yang mengemukakan Hukum Newton tentang gerak?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Albert Einstein", "isCorrect": false },
+      { "optionText": "Isaac Newton", "isCorrect": true },
+      { "optionText": "Galileo Galilei", "isCorrect": false },
+      { "optionText": "Marie Curie", "isCorrect": false }
+    ],
+    "explanation": "Isaac Newton merumuskan tiga hukum gerak yang menjadi dasar mekanika klasik.",
+    "points": 10,
+    "orderNumber": 2
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Berapakah hasil dari turunan f(x) = x^2?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "x", "isCorrect": false },
+      { "optionText": "2x", "isCorrect": true },
+      { "optionText": "x^2", "isCorrect": false },
+      { "optionText": "2", "isCorrect": false }
+    ],
+    "explanation": "Menggunakan aturan pangkat (power rule), turunan dari x^n adalah n*x^(n-1).",
+    "points": 10,
+    "orderNumber": 3
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Apa organel sel yang berfungsi sebagai tempat respirasi seluler?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Nukleus", "isCorrect": false },
+      { "optionText": "Mitokondria", "isCorrect": true },
+      { "optionText": "Ribosom", "isCorrect": false },
+      { "optionText": "Badan Golgi", "isCorrect": false }
+    ],
+    "explanation": "Mitokondria sering disebut sebagai 'powerhouse of the cell' karena menghasilkan ATP melalui respirasi sel.",
+    "points": 10,
+    "orderNumber": 4
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Gas apa yang dihasilkan oleh tumbuhan selama proses fotosintesis?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Karbon dioksida", "isCorrect": false },
+      { "optionText": "Oksigen", "isCorrect": true },
+      { "optionText": "Nitrogen", "isCorrect": false },
+      { "optionText": "Hidrogen", "isCorrect": false }
+    ],
+    "explanation": "Selama fotosintesis, tumbuhan menyerap CO2 dan melepaskan O2 (oksigen) sebagai produk sampingan.",
+    "points": 10,
+    "orderNumber": 5
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Berapakah nilai pH dari larutan netral pada suhu 25 derajat Celcius?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "1", "isCorrect": false },
+      { "optionText": "7", "isCorrect": true },
+      { "optionText": "14", "isCorrect": false },
+      { "optionText": "0", "isCorrect": false }
+    ],
+    "explanation": "Larutan netral memiliki konsentrasi H+ dan OH- yang sama, dengan nilai pH 7.",
+    "points": 10,
+    "orderNumber": 6
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Apa lambang kimia untuk unsur Emas?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Ag", "isCorrect": false },
+      { "optionText": "Au", "isCorrect": true },
+      { "optionText": "Fe", "isCorrect": false },
+      { "optionText": "Pb", "isCorrect": false }
+    ],
+    "explanation": "Au berasal dari bahasa Latin 'Aurum' yang berarti emas.",
+    "points": 10,
+    "orderNumber": 7
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Apa ibukota dari negara Indonesia?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Surabaya", "isCorrect": false },
+      { "optionText": "Jakarta", "isCorrect": true },
+      { "optionText": "Bandung", "isCorrect": false },
+      { "optionText": "Medan", "isCorrect": false }
+    ],
+    "explanation": "Jakarta merupakan pusat pemerintahan dan ibukota negara Indonesia saat ini.",
+    "points": 10,
+    "orderNumber": 8
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Berapakah hasil dari 5 + 3 * 2?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "16", "isCorrect": false },
+      { "optionText": "11", "isCorrect": true },
+      { "optionText": "13", "isCorrect": false },
+      { "optionText": "10", "isCorrect": false }
+    ],
+    "explanation": "Berdasarkan hirarki operasi (PEMDAS/BODMAS), perkalian dilakukan sebelum penjumlahan. 5 + (3 * 2) = 5 + 6 = 11.",
+    "points": 10,
+    "orderNumber": 9
+  },
+  {
+    "quizId": "698ab0dfb2e9c0ced309eaf0",
+    "questionText": "Manakah planet terbesar di tata surya kita?",
+    "questionType": "MULTIPLE_CHOICE",
+    "options": [
+      { "optionText": "Mars", "isCorrect": false },
+      { "optionText": "Jupiter", "isCorrect": true },
+      { "optionText": "Saturnus", "isCorrect": false },
+      { "optionText": "Bumi", "isCorrect": false }
+    ],
+    "explanation": "Jupiter adalah planet raksasa gas dan merupakan planet terbesar di tata surya.",
+    "points": 10,
+    "orderNumber": 10
+  }
+]

@@ -1,0 +1,11 @@
+# Ignore uploads folder (too large for serverless/hosted on external links)
+uploads/
+
+# Ignore development/env files
+node_modules/
+.env
+.git/
+*.log
+*.md
+seeder.js
+questions_list.json
