@@ -21,9 +21,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Database Connection
-mongoose.connect(process.env.MONGO_URI)
-    .then(() => console.log('MongoDB Connected successfully'))
-    .catch((err) => console.error('MongoDB Connection Error:', err));
+const connectDB = require('./config/db');
+connectDB();
 
 // Routes placeholder
 app.get('/', (req, res) => {
