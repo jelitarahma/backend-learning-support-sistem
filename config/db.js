@@ -1,27 +1,25 @@
 const mongoose = require('mongoose');
 
-let isConnected = false;
+let cachedDB = null;
 
 const connectDB = async () => {
-    mongoose.set('strictQuery', true);
-
-    if (!process.env.MONGO_URI) {
-        return console.log('MONGO_URI is not defined');
+    if (cachedDB && mongoose.connection.readyState === 1) {
+        return cachedDB;
     }
 
-    if (isConnected) {
-        return console.log('MongoDB is already connected');
+    if (!process.env.MONGO_URI) {
+        console.error('MONGO_URI is not defined');
+        return;
     }
 
     try {
-        await mongoose.connect(process.env.MONGO_URI, {
-            dbName: "e-learning",
-        });
-
-        isConnected = true;
-        console.log('MongoDB Connected');
+        const db = await mongoose.connect(process.env.MONGO_URI);
+        cachedDB = db;
+        console.log('MongoDB Connected Successfully');
+        return db;
     } catch (error) {
-        console.log('MongoDB Connection Error:', error);
+        console.error('MongoDB Connection Error detail:', error.message);
+        throw error; // Throw agar tertangkap di log Vercel
     }
 };
 

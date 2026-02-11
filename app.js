@@ -26,7 +26,7 @@ connectDB();
 
 // Routes placeholder
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to Learning Support System API' });
+    res.json({ message: 'Welcome to Learning Support System API By Jelita Rahma' });
 });
 
 // Import Routes
