@@ -16,6 +16,7 @@ const userSchema = new mongoose.Schema({
     },
     schoolInfo: {
         schoolId: { type: mongoose.Schema.Types.ObjectId, ref: 'School' },
+        schoolName: String,
         class: String,
         academicYear: String
     },
